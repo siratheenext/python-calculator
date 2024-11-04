@@ -19,7 +19,7 @@ class Calculator:
         return result + 1
     
     def modulo(self, a, b):
-        while a <= b:
+        while b <= a:
             a = a-b
         return a
 

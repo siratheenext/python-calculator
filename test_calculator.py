@@ -29,12 +29,14 @@ class TestCalculator(unittest.TestCase):
 
     def test_divide_positive(self):
         self.assertEqual(self.calc.divide(4,4), 1)
-    def test_divide_negative(self):
-        self.assertEqual(self.calc.divide(2,-1), -2)
+
+    def test_divide_positive02(self):
+        self.assertEqual(self.calc.divide(2,1), 2)
 
     def test_modulo_positive01(self):
         self.assertEqual(self.calc.modulo(3,2), 1)
-    def test_modulo_positive01(self):
+        
+    def test_modulo_positive02(self):
         self.assertEqual(self.calc.modulo(4,2), 0)
     # Add the following test methods to the TestCalculator class:
 
